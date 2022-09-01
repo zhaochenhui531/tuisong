@@ -24,6 +24,6 @@ jobs:
         MIDDLE_NAME: The
         LAST_NAME: Octocat
         #字段10: run,具体的一个步骤运行的命令或者 action。
-      run: |
+      run:
        	python3 -m pip install --upgrade pip setuptools wheel
 	python3 -m pip install -r requirements.txt
